@@ -1,0 +1,1 @@
+include "calculadora-api", "calculadora-core", "calculadora-ear", "calculadora-war"
