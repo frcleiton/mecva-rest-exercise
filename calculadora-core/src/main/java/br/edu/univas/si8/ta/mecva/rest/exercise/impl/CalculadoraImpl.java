@@ -16,4 +16,10 @@ public class CalculadoraImpl implements CalcService{
 		return new Result().withFirst(first).withSecond(second).withResult(result);
 	}
 
+	@Override
+	public Result subtract(int first, int second) {
+		int result = first - second;
+		return new Result().withFirst(first).withSecond(second).withResult(result);
+	}
+
 }
