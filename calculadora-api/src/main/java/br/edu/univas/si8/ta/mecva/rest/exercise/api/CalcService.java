@@ -19,6 +19,6 @@ public interface CalcService {
 	@GET
 	@Path("/sum")
 	@Produces(MediaType.APPLICATION_JSON)
-	Result sum(@QueryParam("a") int a, @QueryParam("b") int b);
+	Result sum(@QueryParam("first") int a, @QueryParam("second") int b);
 
 }

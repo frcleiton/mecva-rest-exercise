@@ -2,38 +2,51 @@ package br.edu.univas.si8.ta.mecva.rest.exercise.api;
 
 public class Result {
 	
-	private int a;
-	private int b;
-	private int value;
+	private int first;
+	private int second;
+	private int result;
 	
-	public int getA() {
-		return a;
+	
+	public int getFirst() {
+		return first;
 	}
-	public void setA(int a) {
-		this.a = a;
+
+
+	public void setFirst(int first) {
+		this.first = first;
 	}
-	public Result withA(int a) {
-		this.a = a;
+	
+	public Result withFirst(int first) {
+		this.first = first;
 		return this;
 	}
-	public int getB() {
-		return b;
+
+	public int getSecond() {
+		return second;
 	}
-	public void setB(int b) {
-		this.b = b;
+
+	public void setSecond(int second) {
+		this.second = second;
 	}
-	public Result withB(int b) {
-		this.b = b;
+	
+	public Result withSecond(int second) {
+		this.second = second;
 		return this;
 	}
-	public int getValue() {
-		return value;
+
+
+	public int getResult() {
+		return result;
 	}
-	public void setValue(int value) {
-		this.value = value;
+
+
+	public void setResult(int result) {
+		this.result = result;
 	}
-	public Result withValue(int value) {
-		this.value = value;
+
+
+	public Result withResult(int result) {
+		this.result = result;
 		return this;
 	}
 }

@@ -11,9 +11,9 @@ public class CalculadoraImpl implements CalcService{
 	}
 
 	@Override
-	public Result sum(int a, int b) {
-		int result = a + b;
-		return new Result().withA(a).withB(b).withValue(result);
+	public Result sum(int first, int second) {
+		int result = first + second;
+		return new Result().withFirst(first).withSecond(second).withResult(result);
 	}
 
 }
